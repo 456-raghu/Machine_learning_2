@@ -109,7 +109,20 @@ csv_attr_dict
 * These numeric values are usually scalar and can also be form the basis of vectors.
 * This data is widely used in techniques like <em>Binning</em>,<em>Normalization</em>,<em>Quantization</em>
 
-#### Text
-* This type of data usually comprises of unstructured content such as textual and alphanumeric data.
-* This type of 
+### Text:
 
+* This type of data usually comprises of unstructured content such as textual and alphanumeric data.
+* Since it represents human language and contain implicit grammar. It requires additional care for transformation and understanding.
+
+### Categorical:
+
+* This data type os between numeric and text. Categorical variables refer to refer categories of entities beging observed.
+* These data can be represented in numeric or alpha numeric data.
+* categorical data can be further classified into two types:<br>
+&nbsp;&nbsp; * Nominal: These are the categorical data which cannot be ordered.
+&nbsp;&nbsp;&nbsp;&nbsp;<em>Examples</em> : Color of hair<br>
+&nbsp;&nbsp; * Ordinal: These are the type of data that can be ordered based on the rules of the context.
+&nbsp;&nbsp;&nbsp;&nbsp;<br><em>Examples</em> : Medium, Low, High.
+* We cannot perform standard mathematical operations like addition, subtraction and other mathematical and statistical operations
+
+# Data Wrangling
